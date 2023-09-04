@@ -8,7 +8,8 @@
     --text-color: white;
     --bg-url: url(./assets/assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.05);
-    --surface-color: rgba(255, 255, 255, 0.1);
+    --surface-color: rgba(255, 255, 255, 0.05);
+    --surface-color-rover: rgba(0, 0, 0, 0.02);
     
 }
 
@@ -17,6 +18,7 @@
     --bg-url: url(./assets/assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
+    --surface-color-rover: rgba(0, 0, 0, 0.02);
 }
 
 body {
@@ -68,7 +70,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--surface-color-rover);
     border: 1.5px solid var(--text-color);
 }
 #social-links{
